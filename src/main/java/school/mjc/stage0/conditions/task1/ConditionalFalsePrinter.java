@@ -6,10 +6,10 @@ public class ConditionalFalsePrinter {
         x=40;
         y=50;
         if(x!=y){
-            System.out.println("False");
+            System.out.println("false");
         }
         else {
-            System.out.println("True");
+            System.out.println("true");
         }
     }
 }
