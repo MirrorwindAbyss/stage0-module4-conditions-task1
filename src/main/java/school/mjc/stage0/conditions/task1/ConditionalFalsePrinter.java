@@ -5,11 +5,11 @@ public class ConditionalFalsePrinter {
         int x, y;
         x=40;
         y=50;
-        if(x!=y){
-            System.out.println("false");
+        if(x==y){
+            System.out.println("true");
         }
         else {
-            System.out.println("true");
+            System.out.println("false");
         }
     }
 }
